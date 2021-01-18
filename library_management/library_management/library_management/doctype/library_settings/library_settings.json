@@ -1,0 +1,51 @@
+{
+ "creation": "2021-01-13 12:48:25.736936",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "loan_period",
+  "maximum_books",
+  "library_member"
+ ],
+ "fields": [
+  {
+   "fieldname": "loan_period",
+   "fieldtype": "Int",
+   "label": "Loan Period"
+  },
+  {
+   "fieldname": "maximum_books",
+   "fieldtype": "Int",
+   "label": "Maximum number of issued books"
+  },
+  {
+   "fieldname": "library_member",
+   "fieldtype": "Link",
+   "label": "Library Member",
+   "options": "Library Member"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2021-01-14 13:29:13.544783",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
